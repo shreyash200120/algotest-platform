@@ -25,14 +25,6 @@ npm run dev
 
 Then open `http://localhost:8888`.
 
-## Optional: run with Netlify CLI
-
-If you want the full Netlify dev environment:
-
-```bash
-npm run dev:netlify
-```
-
 ## Deploy on Vercel
 
 Vercel does not run Netlify Functions, so this repo includes Vercel Serverless Functions in `api/`:
