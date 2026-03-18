@@ -1,0 +1,16 @@
+{
+  "name": "algotest-platform",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AlgoTest — Options Strategy Platform (static site + Netlify Functions)",
+  "type": "module",
+  "scripts": {
+    "dev": "node ./dev-server.mjs",
+    "start": "node ./dev-server.mjs",
+    "dev:netlify": "netlify dev --port 8888",
+    "build": "node -e \"console.log('No build step (static index.html)')\""
+  },
+  "devDependencies": {
+    "netlify-cli": "^20.0.0"
+  }
+}
